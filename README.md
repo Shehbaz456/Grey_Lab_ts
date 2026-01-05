@@ -59,13 +59,12 @@ A frontend assignment project built using **React**, **TypeScript**, and **Vite*
 ```bash
 src/
 ├── components/
+|   ├── Navbar.tsx
 │   ├── ProductCard.tsx
-│   ├── ProductList.tsx
-│   ├── ProductRow.tsx
-│   └── CounterDisplay.tsx
+│   ├── ProductForm.tsx 
+│   └── ProductRow.tsx
 ├── pages/
-│   ├── ProductPage.tsx
-│   └── AddEditProduct.tsx
+│    └── ProductPage.tsx
 ├── types/
 │   └── product.ts
 ├── data/
