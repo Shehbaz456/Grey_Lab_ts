@@ -10,7 +10,11 @@ function ProductRow({ product,handleDeleteProduct }: ProductRowProps) {
   return (
     <div className="grid md:grid-cols-5  p-3 border-t items-center">
       <span>{product.name}</span>
-      <span>{product.category}</span>
+      <div>
+        <span className="inline-block bg-blue-100 px-2 py-1 rounded text-sm">
+          {product.category}
+        </span>
+      </div>
       <span>₹ {product.price}</span>
       <span>{product.stock}</span>
       <div>
