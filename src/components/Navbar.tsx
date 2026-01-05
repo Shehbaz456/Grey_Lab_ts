@@ -62,6 +62,7 @@ export default function Navbar({onSearch}:searchProp) {
             <input
               type="text"
               placeholder="Search products..."
+              onChange={(e)=>onSearch(e.target.value)}
               className="w-full rounded-lg px-4 py-2 text-sm 
               bg-gray-200 text-slate-700
               border border-slate-300"
